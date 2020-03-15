@@ -6,6 +6,9 @@ def hello_t(array)
      i += 1
     end
     return array
+  else
+    puts "Hey! No block was given!"
+  end
 end
 
 a = ["Tim", "Tom", "Jim"]
